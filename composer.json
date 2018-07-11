@@ -1,0 +1,22 @@
+{
+    "name": "chrometoaster/backend-coding-standards",
+    "description": "Back-end coding standards configuration used at Chrometoaster.",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Chrometoaster",
+            "homepage": "https://www.chrometoaster.com/"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "jakub-onderka/php-parallel-lint": "~1.0.0",
+        "jakub-onderka/php-console-highlighter": "~0.3",
+        "symplify/easy-coding-standard": "~4.4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chrometoaster\\CodingStandard\\": "src"
+        }
+    }
+}
