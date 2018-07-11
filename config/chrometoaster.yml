@@ -110,6 +110,7 @@ services:
     PhpCsFixer\Fixer\Semicolon\NoSinglelineWhitespaceBeforeSemicolonsFixer: ~
     PhpCsFixer\Fixer\Semicolon\SpaceAfterSemicolonFixer: ~
     PhpCsFixer\Fixer\StringNotation\SingleQuoteFixer: ~
+    PhpCsFixer\Fixer\Whitespace\ArrayIndentationFixer: ~
     PhpCsFixer\Fixer\Whitespace\BlankLineBeforeStatementFixer:
         statements:
             - break
